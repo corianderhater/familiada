@@ -442,7 +442,7 @@ const Familiada: React.FC = () => {
 
   const currentQuestion = questions[currentQuestionIndex];
 
-  const aTeam = "Pani młoda";
+  const aTeam = "Panna młoda";
   const bTeam = "Pan młody";
 
   const setTeamAPlays = () => {
