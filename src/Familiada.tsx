@@ -14,79 +14,8 @@ export type Question = {
 
 const questions: Question[] = [
   {
-    question: "Jakie państwa zwiedzili razem Młodzi?",
-    answers: [
-      { text: "Izrael", points: 35 },
-      { text: "Chorwacja", points: 22 },
-      { text: "Słowacja", points: 15 },
-      { text: "Grecja", points: 11 },
-      { text: "Turcja", points: 10 },
-      { text: "Szwajcaria", points: 9 },
-      { text: "Włochy", points: 7 },
-      { text: "Polska", points: 5 },
-      { text: "Egipt", points: 3 },
-    ],
-  },
-  {
-    question: "Jakimi formami przemieszczania razem się poruszali?",
-    answers: [
-      { text: "Samochód", points: 23 },
-      { text: "Samolot", points: 18 },
-      { text: "Żaglówka", points: 15 },
-      { text: "Kajak", points: 12 },
-      { text: "Rower", points: 10 },
-      { text: "Karuzela", points: 9 },
-      { text: "Narty zjazdowe", points: 8 },
-      { text: "Łyżwy", points: 6 },
-      { text: "Biegówki", points: 2 },
-    ],
-  },
-  {
-    question: "W jakim miejscu morsowali?",
-    answers: [
-      { text: "Jezioro Otomin", points: 30 },
-      { text: "Morze Bałtyckie", points: 20 },
-      { text: "Bania w ogródku", points: 19 },
-    ],
-  },
-  {
-    question: "Jakie sporty razem uprawiali?",
-    answers: [
-      { text: "Rower", points: 25 },
-      { text: "Biegi", points: 18 },
-      { text: "Narty", points: 13 },
-      { text: "Żaglówki", points: 12 },
-      { text: "Kajaki", points: 10 },
-      { text: "Pływanie", points: 6 },
-      { text: "Pilates", points: 5 },
-      { text: "Joga", points: 2 },
-    ],
-  },
-  {
-    question: "Jak Krzysztof woła na Alicję?",
-    answers: [
-      { text: "Żonko", points: 20 },
-      { text: "Alicja", points: 18 },
-      { text: "Mama (w trzeciej osobie)", points: 12 },
-      { text: "Kochanie", points: 10 },
-    ],
-  },
-  {
-    question: "Jak Alicja woła na Krzysztofa?",
-    answers: [
-      { text: "Kaloryferek", points: 20 },
-      { text: "Mężulku", points: 18 },
-      { text: "Krzyś", points: 12 },
-      { text: "Krzysiu", points: 10 },
-    ],
-  },
-  {
-    question: "Ile dokładnie dni byli w związku w dniu ślubu?",
-    answers: [{ text: "Brak danych", points: 10 }],
-  },
-  {
-    question: "Jakie dodatki miała na sobie Panna Młoda w dniu ślubu?",
-    answers: [{ text: "Kolczyki", points: 10 }],
+    question: "PIERWSZA RUNDA",
+    answers: [],
   },
   {
     question: "Symbole reprezentujące miłość",
@@ -418,6 +347,86 @@ const questions: Question[] = [
       { text: "Crazy is my life", points: 12 },
     ],
   },
+  {
+    question: "WIELKI FINAŁ!",
+    answers: [],
+  },
+  {
+    question: "Jakie państwa zwiedzili razem Młodzi?",
+    answers: [
+      { text: "Izrael", points: 35 },
+      { text: "Chorwacja", points: 22 },
+      { text: "Słowacja", points: 15 },
+      { text: "Grecja", points: 11 },
+      { text: "Turcja", points: 10 },
+      { text: "Szwajcaria", points: 9 },
+      { text: "Włochy", points: 7 },
+      { text: "Polska", points: 5 },
+      { text: "Egipt", points: 3 },
+    ],
+  },
+  {
+    question: "Jakimi formami przemieszczania razem się poruszali?",
+    answers: [
+      { text: "Samochód", points: 23 },
+      { text: "Samolot", points: 18 },
+      { text: "Żaglówka", points: 15 },
+      { text: "Kajak", points: 12 },
+      { text: "Rower", points: 10 },
+      { text: "Karuzela", points: 9 },
+      { text: "Narty zjazdowe", points: 8 },
+      { text: "Łyżwy", points: 6 },
+      { text: "Biegówki", points: 2 },
+    ],
+  },
+  {
+    question: "W jakim miejscu morsowali?",
+    answers: [
+      { text: "Jezioro Otomin", points: 30 },
+      { text: "Morze Bałtyckie", points: 20 },
+      { text: "Bania w ogródku", points: 19 },
+    ],
+  },
+  {
+    question: "Jakie sporty razem uprawiali?",
+    answers: [
+      { text: "Rower", points: 25 },
+      { text: "Biegi", points: 18 },
+      { text: "Narty", points: 13 },
+      { text: "Żaglówki", points: 12 },
+      { text: "Kajaki", points: 10 },
+      { text: "Pływanie", points: 6 },
+      { text: "Pilates", points: 5 },
+      { text: "Joga", points: 2 },
+    ],
+  },
+  {
+    question: "Jak Krzysztof woła na Alicję?",
+    answers: [
+      { text: "Żonko", points: 20 },
+      { text: "Alicja", points: 18 },
+      { text: "Mama (w trzeciej osobie)", points: 12 },
+      { text: "Kochanie", points: 10 },
+    ],
+  },
+  {
+    question: "Jak Alicja woła na Krzysztofa?",
+    answers: [
+      { text: "Kaloryferek", points: 20 },
+      { text: "Mężulku", points: 18 },
+      { text: "Krzyś", points: 12 },
+      { text: "Krzysiu", points: 10 },
+    ],
+  },
+  {
+    question: "Jakie dodatki miała na sobie Panna Młoda w dniu ślubu?",
+    answers: [
+      { text: "Lisek", points: 20 },
+      { text: "Kolczyki", points: 18 },
+      { text: "Bukiet", points: 16 },
+      { text: "Welon", points: 14 },
+    ],
+  },
 ];
 
 const Familiada: React.FC = () => {
@@ -487,6 +496,17 @@ const Familiada: React.FC = () => {
 
   const handleNextQuestion = () => {
     setCurrentQuestionIndex((prev) => (prev + 1) % questions.length);
+    setRevealedAnswers([]);
+    setInputValue("");
+    setMistakesA(0);
+    setMistakesB(0);
+    setRoundScore(0);
+    const audio = new Audio("porundzie.mp3");
+    audio.play();
+  };
+
+  const handlePrevQuestion = () => {
+    setCurrentQuestionIndex((prev) => (prev - 1) % questions.length);
     setRevealedAnswers([]);
     setInputValue("");
     setMistakesA(0);
@@ -604,12 +624,20 @@ const Familiada: React.FC = () => {
             Odpowiada drużyna {bTeam}
           </button>
         </div>
-        <button
-          onClick={handleNextQuestion}
-          className="border-2 border-yellow-400 px-4 py-2 rounded-lg hover:bg-green-700 transition"
-        >
-          Następne pytanie
-        </button>
+        <div className="flex justify-between w-full py-4">
+          <button
+            onClick={handlePrevQuestion}
+            className="border-2 border-yellow-400 px-4 py-2 rounded-lg hover:bg-green-700 transition"
+          >
+            Poprzednie pytanie
+          </button>
+          <button
+            onClick={handleNextQuestion}
+            className="border-2 border-yellow-400 px-4 py-2 rounded-lg hover:bg-green-700 transition"
+          >
+            Następne pytanie
+          </button>
+        </div>
         <div className="flex">
           <div className="m-7">muzyka:</div>
           <SoundButton path={"/intro.mp3"} text="intro" className="m-5" />
